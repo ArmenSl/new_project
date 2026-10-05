@@ -1,0 +1,3513 @@
+{
+  "project": {
+    "id": "5204fe4d-f3b5-4b3d-b9b0-a2d7c457c9e0",
+    "type": "Project",
+    "schemaVersion": 4,
+    "name": "New_Project",
+    "description": "Modern workspace project for UML, GUI and quantum modeling.",
+    "owner": "BESSER User",
+    "createdAt": "2026-10-05T12:20:50.298Z",
+    "currentDiagramType": "ClassDiagram",
+    "currentDiagramIndices": {
+      "ClassDiagram": 0,
+      "ObjectDiagram": 0,
+      "StateMachineDiagram": 0,
+      "AgentDiagram": 0,
+      "UserDiagram": 0,
+      "GUINoCodeDiagram": 0,
+      "QuantumCircuitDiagram": 0,
+      "NNDiagram": 0,
+      "BPMN": 0
+    },
+    "diagrams": {
+      "ClassDiagram": [
+        {
+          "id": "3a676734-dc5e-4243-916a-abe38a73fa9e",
+          "title": "Library",
+          "model": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 1110,
+              "height": 550
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "class_oho5ergc3_mjikkmod": {
+                "id": "class_oho5ergc3_mjikkmod",
+                "name": "Book",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -313,
+                  "y": -225.39999389648438,
+                  "width": 240,
+                  "height": 215
+                },
+                "attributes": [
+                  "attr_a87fqdtdi_mjikkmod",
+                  "attr_v6ve12d44_mjikkmod",
+                  "attr_edi3c3l8k_mjikkmod",
+                  "attr_mczftcqfb_mjikkmod",
+                  "attr_785suq5yn_mjikkmod",
+                  "attr_urp7jb0c0_mjikkmod"
+                ],
+                "methods": [
+                  "method_rb01uirsh_mjikkmod"
+                ]
+              },
+              "attr_a87fqdtdi_mjikkmod": {
+                "id": "attr_a87fqdtdi_mjikkmod",
+                "name": "title",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -184.89999389648438,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_v6ve12d44_mjikkmod": {
+                "id": "attr_v6ve12d44_mjikkmod",
+                "name": "pages",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -159.89999389648438,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_edi3c3l8k_mjikkmod": {
+                "id": "attr_edi3c3l8k_mjikkmod",
+                "name": "stock",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -134.89999389648438,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_mczftcqfb_mjikkmod": {
+                "id": "attr_mczftcqfb_mjikkmod",
+                "name": "price",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -109.89999389648438,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "float",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_785suq5yn_mjikkmod": {
+                "id": "attr_785suq5yn_mjikkmod",
+                "name": "release",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -84.89999389648438,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_urp7jb0c0_mjikkmod": {
+                "id": "attr_urp7jb0c0_mjikkmod",
+                "name": "genre",
+                "type": "ClassAttribute",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -59.899993896484375,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "Genre",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_rb01uirsh_mjikkmod": {
+                "id": "method_rb01uirsh_mjikkmod",
+                "name": "+ decrease_stock(qty: int)",
+                "type": "ClassMethod",
+                "owner": "class_oho5ergc3_mjikkmod",
+                "bounds": {
+                  "x": -312.5,
+                  "y": -34.899993896484375,
+                  "width": 239,
+                  "height": 25
+                },
+                "code": "def decrease_stock(self, qty: int):\n    \"\"\"\n    Decrease the available stock by the given quantity.\n\n    :param qty: Number of items to remove from stock\n    :raises ValueError: If qty is negative or exceeds available stock\n    \"\"\"\n    if qty <= 0:\n        raise ValueError(\"Quantity must be a positive integer\")\n\n    if qty > self.stock:\n        raise ValueError(\n            f\"Cannot decrease stock by {qty}. Only {self.stock} items available.\"\n        )\n\n    self.stock -= qty\n\n",
+                "visibility": "public",
+                "attributeType": "int): any",
+                "implementationType": "code",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_06blhjj3h_mjikkmod": {
+                "id": "class_06blhjj3h_mjikkmod",
+                "name": "Library",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 115,
+                  "y": -25,
+                  "width": 350,
+                  "height": 185
+                },
+                "attributes": [
+                  "attr_eryfh37kl_mjikkmod",
+                  "f9608e0e-745d-4113-85ad-cd06b1900c09",
+                  "4391886d-13b5-4fa0-9894-09f1894af27f",
+                  "a487fd85-dec0-47b9-bd37-71ff92026963"
+                ],
+                "methods": [
+                  "35ef5329-889b-40f0-89ce-9836936fd8a9"
+                ]
+              },
+              "attr_eryfh37kl_mjikkmod": {
+                "id": "attr_eryfh37kl_mjikkmod",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_06blhjj3h_mjikkmod",
+                "bounds": {
+                  "x": 115.5,
+                  "y": 15.5,
+                  "width": 349,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "f9608e0e-745d-4113-85ad-cd06b1900c09": {
+                "id": "f9608e0e-745d-4113-85ad-cd06b1900c09",
+                "name": "web_page",
+                "type": "ClassAttribute",
+                "owner": "class_06blhjj3h_mjikkmod",
+                "bounds": {
+                  "x": 115.5,
+                  "y": 40.5,
+                  "width": 349,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "4391886d-13b5-4fa0-9894-09f1894af27f": {
+                "id": "4391886d-13b5-4fa0-9894-09f1894af27f",
+                "name": "address",
+                "type": "ClassAttribute",
+                "owner": "class_06blhjj3h_mjikkmod",
+                "bounds": {
+                  "x": 115.5,
+                  "y": 70.5,
+                  "width": 349,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "a487fd85-dec0-47b9-bd37-71ff92026963": {
+                "id": "a487fd85-dec0-47b9-bd37-71ff92026963",
+                "name": "telephone",
+                "type": "ClassAttribute",
+                "owner": "class_06blhjj3h_mjikkmod",
+                "bounds": {
+                  "x": 115.5,
+                  "y": 100.5,
+                  "width": 349,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "35ef5329-889b-40f0-89ce-9836936fd8a9": {
+                "id": "35ef5329-889b-40f0-89ce-9836936fd8a9",
+                "name": "+ cheapest_book_by(author:Author): str",
+                "type": "ClassMethod",
+                "owner": "class_06blhjj3h_mjikkmod",
+                "bounds": {
+                  "x": 115.5,
+                  "y": 130.5,
+                  "width": 349,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "neural_network",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_d3f0di6lb_mjikkmoe": {
+                "id": "class_d3f0di6lb_mjikkmoe",
+                "name": "Author",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 185,
+                  "y": -255,
+                  "width": 220,
+                  "height": 95
+                },
+                "attributes": [
+                  "attr_p3zqpt65k_mjikkmoe",
+                  "4321afe8-8ec2-48da-a0ec-b2ce9ccaf1db"
+                ],
+                "methods": []
+              },
+              "attr_p3zqpt65k_mjikkmoe": {
+                "id": "attr_p3zqpt65k_mjikkmoe",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_d3f0di6lb_mjikkmoe",
+                "bounds": {
+                  "x": 185.5,
+                  "y": -214.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "4321afe8-8ec2-48da-a0ec-b2ce9ccaf1db": {
+                "id": "4321afe8-8ec2-48da-a0ec-b2ce9ccaf1db",
+                "name": "birth",
+                "type": "ClassAttribute",
+                "owner": "class_d3f0di6lb_mjikkmoe",
+                "bounds": {
+                  "x": 185.5,
+                  "y": -189.5,
+                  "width": 219,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "50ffa27f-f8a9-438b-b81b-174266f39952": {
+                "id": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "name": "Genre",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": -535,
+                  "y": -95,
+                  "width": 160,
+                  "height": 350
+                },
+                "attributes": [
+                  "bfadf7ef-e6a4-43e3-b267-672be745c9c7",
+                  "15d10eca-11e8-4894-8b27-d815dbc62596",
+                  "55346119-1f08-48c5-9629-b5223ea766e0",
+                  "67e73142-470c-4795-8864-96f08365ce49",
+                  "4ba07b68-1fd2-40fc-ad63-05766965aaad",
+                  "52114e47-c8c1-404a-847c-0b877de007e0",
+                  "65937dfa-011b-425e-a292-7d66dff5cd36",
+                  "994869fb-9b98-450f-add4-a2ee88a15c7f",
+                  "45fa6842-da64-4878-b875-c536f06f1d50",
+                  "6d81aaec-327a-42b9-89db-a17e54bb7b5a"
+                ],
+                "methods": []
+              },
+              "bfadf7ef-e6a4-43e3-b267-672be745c9c7": {
+                "id": "bfadf7ef-e6a4-43e3-b267-672be745c9c7",
+                "name": "Poetry",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": -44.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "15d10eca-11e8-4894-8b27-d815dbc62596": {
+                "id": "15d10eca-11e8-4894-8b27-d815dbc62596",
+                "name": "Thriller",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": -14.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "55346119-1f08-48c5-9629-b5223ea766e0": {
+                "id": "55346119-1f08-48c5-9629-b5223ea766e0",
+                "name": "History",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 15.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "67e73142-470c-4795-8864-96f08365ce49": {
+                "id": "67e73142-470c-4795-8864-96f08365ce49",
+                "name": "Technology",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 45.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "4ba07b68-1fd2-40fc-ad63-05766965aaad": {
+                "id": "4ba07b68-1fd2-40fc-ad63-05766965aaad",
+                "name": "Romance",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 75.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "52114e47-c8c1-404a-847c-0b877de007e0": {
+                "id": "52114e47-c8c1-404a-847c-0b877de007e0",
+                "name": "Horror",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 105.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "65937dfa-011b-425e-a292-7d66dff5cd36": {
+                "id": "65937dfa-011b-425e-a292-7d66dff5cd36",
+                "name": "Adventure",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 135.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "994869fb-9b98-450f-add4-a2ee88a15c7f": {
+                "id": "994869fb-9b98-450f-add4-a2ee88a15c7f",
+                "name": "Philosophy",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 165.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "45fa6842-da64-4878-b875-c536f06f1d50": {
+                "id": "45fa6842-da64-4878-b875-c536f06f1d50",
+                "name": "Cookbooks",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 195.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "6d81aaec-327a-42b9-89db-a17e54bb7b5a": {
+                "id": "6d81aaec-327a-42b9-89db-a17e54bb7b5a",
+                "name": "Fantasy",
+                "type": "ClassAttribute",
+                "owner": "50ffa27f-f8a9-438b-b81b-174266f39952",
+                "bounds": {
+                  "x": -534.5,
+                  "y": 225.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "de57bf9a-a91f-4c69-9ad0-4879e2222edd": {
+                "id": "de57bf9a-a91f-4c69-9ad0-4879e2222edd",
+                "name": "",
+                "type": "ClassOCLConstraint",
+                "owner": null,
+                "bounds": {
+                  "x": -535,
+                  "y": -255,
+                  "width": 210,
+                  "height": 90
+                },
+                "description": "",
+                "constraint": "context Book inv inv1: self.pages> 10"
+              }
+            },
+            "relationships": {
+              "rel_z26fdxrdq_mjikkmoe": {
+                "id": "rel_z26fdxrdq_mjikkmoe",
+                "name": "books",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -73,
+                  "y": -127.89999389648438,
+                  "width": 188,
+                  "height": 233.9999942779541
+                },
+                "path": [
+                  {
+                    "x": 188,
+                    "y": 195.39999389648438
+                  },
+                  {
+                    "x": 94,
+                    "y": 195.39999389648438
+                  },
+                  {
+                    "x": 94,
+                    "y": 10
+                  },
+                  {
+                    "x": 0,
+                    "y": 10
+                  }
+                ],
+                "source": {
+                  "direction": "Left",
+                  "element": "class_06blhjj3h_mjikkmod",
+                  "multiplicity": "1..*",
+                  "role": "library",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Right",
+                  "element": "class_oho5ergc3_mjikkmod",
+                  "multiplicity": "*",
+                  "role": "books",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_0ys2qxzq1_mjikkmoe": {
+                "id": "rel_0ys2qxzq1_mjikkmoe",
+                "name": "books",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -73,
+                  "y": -202.6999969482422,
+                  "width": 258,
+                  "height": 48.60000038146973
+                },
+                "path": [
+                  {
+                    "x": 258,
+                    "y": 10
+                  },
+                  {
+                    "x": 0,
+                    "y": 10
+                  }
+                ],
+                "source": {
+                  "direction": "Left",
+                  "element": "class_d3f0di6lb_mjikkmoe",
+                  "multiplicity": "1..*",
+                  "role": "authors",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Right",
+                  "element": "class_oho5ergc3_mjikkmod",
+                  "multiplicity": "*",
+                  "role": "books",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {}
+          },
+          "lastUpdate": "2026-10-05T12:53:44.548Z"
+        }
+      ],
+      "AgentDiagram": [
+        {
+          "id": "52d9cc10-fab8-4b63-9725-5f564cacae70",
+          "title": "Greeting Agent",
+          "model": {
+            "version": "3.0.0",
+            "type": "AgentDiagram",
+            "size": {
+              "width": 1100,
+              "height": 434
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "de7fd93b-1a51-406d-a4f1-a37966b96db1": {
+                "id": "de7fd93b-1a51-406d-a4f1-a37966b96db1",
+                "name": "initial",
+                "type": "AgentState",
+                "owner": null,
+                "bounds": {
+                  "x": -438,
+                  "y": -34,
+                  "width": 160,
+                  "height": 40
+                },
+                "stateType": "standard",
+                "fallbackBodyEnabled": false,
+                "actions": [],
+                "fallbackActions": [],
+                "bodies": [],
+                "fallbackBodies": []
+              },
+              "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5": {
+                "id": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5",
+                "name": "greeting",
+                "type": "AgentState",
+                "owner": null,
+                "bounds": {
+                  "x": -107,
+                  "y": -63,
+                  "width": 210,
+                  "height": 100
+                },
+                "stateType": "standard",
+                "fallbackBodyEnabled": false,
+                "actions": [
+                  "3c1a1d99-1758-4d49-af3c-0385d028baf8",
+                  "a70aee8d-8e3d-4f1b-829d-ef0afd06cd38"
+                ],
+                "fallbackActions": [],
+                "bodies": [
+                  "3c1a1d99-1758-4d49-af3c-0385d028baf8",
+                  "a70aee8d-8e3d-4f1b-829d-ef0afd06cd38"
+                ],
+                "fallbackBodies": []
+              },
+              "3c1a1d99-1758-4d49-af3c-0385d028baf8": {
+                "id": "3c1a1d99-1758-4d49-af3c-0385d028baf8",
+                "name": "Hi",
+                "type": "AgentStateBody",
+                "owner": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5",
+                "bounds": {
+                  "x": -106.5,
+                  "y": -22.5,
+                  "width": 209,
+                  "height": 30
+                },
+                "actionType": "TextReplyAction",
+                "replyType": "text",
+                "useSessionVars": false,
+                "llm_name": ""
+              },
+              "a70aee8d-8e3d-4f1b-829d-ef0afd06cd38": {
+                "id": "a70aee8d-8e3d-4f1b-829d-ef0afd06cd38",
+                "name": "How are you?",
+                "type": "AgentStateBody",
+                "owner": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5",
+                "bounds": {
+                  "x": -106.5,
+                  "y": 7.5,
+                  "width": 209,
+                  "height": 30
+                },
+                "actionType": "TextReplyAction",
+                "replyType": "text",
+                "useSessionVars": false,
+                "llm_name": ""
+              },
+              "22ffd05a-ea5f-42fe-8fb5-b7666e02de3d": {
+                "id": "22ffd05a-ea5f-42fe-8fb5-b7666e02de3d",
+                "name": "good",
+                "type": "AgentState",
+                "owner": null,
+                "bounds": {
+                  "x": 282,
+                  "y": -157,
+                  "width": 240,
+                  "height": 70
+                },
+                "stateType": "standard",
+                "fallbackBodyEnabled": false,
+                "actions": [
+                  "9933e657-4654-43e9-affa-fbbc6d21b804"
+                ],
+                "fallbackActions": [],
+                "bodies": [
+                  "9933e657-4654-43e9-affa-fbbc6d21b804"
+                ],
+                "fallbackBodies": []
+              },
+              "9933e657-4654-43e9-affa-fbbc6d21b804": {
+                "id": "9933e657-4654-43e9-affa-fbbc6d21b804",
+                "name": "I am glad to hear that!",
+                "type": "AgentStateBody",
+                "owner": "22ffd05a-ea5f-42fe-8fb5-b7666e02de3d",
+                "bounds": {
+                  "x": 282.5,
+                  "y": -116.5,
+                  "width": 239,
+                  "height": 30
+                },
+                "actionType": "TextReplyAction",
+                "replyType": "text",
+                "useSessionVars": false,
+                "llm_name": ""
+              },
+              "ce9bd57d-2a3a-45e0-a4d9-2aa22f206d2d": {
+                "id": "ce9bd57d-2a3a-45e0-a4d9-2aa22f206d2d",
+                "name": "bad",
+                "type": "AgentState",
+                "owner": null,
+                "bounds": {
+                  "x": 270,
+                  "y": 86,
+                  "width": 260,
+                  "height": 70
+                },
+                "stateType": "standard",
+                "fallbackBodyEnabled": false,
+                "actions": [
+                  "a09a21da-58e2-4c43-9dcb-77097080fd10"
+                ],
+                "fallbackActions": [],
+                "bodies": [
+                  "a09a21da-58e2-4c43-9dcb-77097080fd10"
+                ],
+                "fallbackBodies": []
+              },
+              "a09a21da-58e2-4c43-9dcb-77097080fd10": {
+                "id": "a09a21da-58e2-4c43-9dcb-77097080fd10",
+                "name": "I am sorry to hear that...",
+                "type": "AgentStateBody",
+                "owner": "ce9bd57d-2a3a-45e0-a4d9-2aa22f206d2d",
+                "bounds": {
+                  "x": 270.5,
+                  "y": 126.5,
+                  "width": 259,
+                  "height": 30
+                },
+                "actionType": "TextReplyAction",
+                "replyType": "text",
+                "useSessionVars": false,
+                "llm_name": ""
+              },
+              "cd5c65eb-7b60-4a20-bd4a-2b2d2d36a93f": {
+                "id": "cd5c65eb-7b60-4a20-bd4a-2b2d2d36a93f",
+                "name": "",
+                "type": "StateInitialNode",
+                "owner": null,
+                "bounds": {
+                  "x": -530,
+                  "y": -34,
+                  "width": 30,
+                  "height": 30
+                }
+              }
+            },
+            "relationships": {
+              "edda0968-00a1-47cd-9718-5cb9928d36e8": {
+                "id": "edda0968-00a1-47cd-9718-5cb9928d36e8",
+                "name": "",
+                "type": "AgentStateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": -278,
+                  "y": -14,
+                  "width": 171,
+                  "height": 1
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 171,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Downright",
+                  "element": "de7fd93b-1a51-406d-a4f1-a37966b96db1"
+                },
+                "target": {
+                  "direction": "Left",
+                  "element": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5"
+                },
+                "isManuallyLayouted": false,
+                "transitionType": "predefined",
+                "predefined": {
+                  "predefinedType": "when_intent_matched",
+                  "intentName": "greeting_intent"
+                },
+                "custom": {
+                  "condition": []
+                }
+              },
+              "bbcf8812-9989-43cb-8097-1a94350dc0e4": {
+                "id": "bbcf8812-9989-43cb-8097-1a94350dc0e4",
+                "name": "",
+                "type": "AgentStateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": 103,
+                  "y": -122,
+                  "width": 179,
+                  "height": 109
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 109
+                  },
+                  {
+                    "x": 89.5,
+                    "y": 109
+                  },
+                  {
+                    "x": 89.5,
+                    "y": 0
+                  },
+                  {
+                    "x": 179,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Right",
+                  "element": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5"
+                },
+                "target": {
+                  "direction": "Left",
+                  "element": "22ffd05a-ea5f-42fe-8fb5-b7666e02de3d"
+                },
+                "isManuallyLayouted": false,
+                "transitionType": "predefined",
+                "predefined": {
+                  "predefinedType": "when_intent_matched",
+                  "intentName": "good_intent"
+                },
+                "custom": {
+                  "condition": []
+                }
+              },
+              "22315f95-af47-4943-9589-f6097264b679": {
+                "id": "22315f95-af47-4943-9589-f6097264b679",
+                "name": "",
+                "type": "AgentStateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": 103,
+                  "y": 12,
+                  "width": 167,
+                  "height": 109
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 83.5,
+                    "y": 0
+                  },
+                  {
+                    "x": 83.5,
+                    "y": 109
+                  },
+                  {
+                    "x": 167,
+                    "y": 109
+                  }
+                ],
+                "source": {
+                  "direction": "Downright",
+                  "element": "d7876c4c-7ea0-4ae8-8b40-9c3530e608d5"
+                },
+                "target": {
+                  "direction": "Left",
+                  "element": "ce9bd57d-2a3a-45e0-a4d9-2aa22f206d2d"
+                },
+                "isManuallyLayouted": false,
+                "transitionType": "predefined",
+                "predefined": {
+                  "predefinedType": "when_intent_matched",
+                  "intentName": "bad_intent"
+                },
+                "custom": {
+                  "condition": []
+                }
+              },
+              "b473e836-0378-4565-8f19-76917a923e76": {
+                "id": "b473e836-0378-4565-8f19-76917a923e76",
+                "name": "",
+                "type": "AgentStateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": -358,
+                  "y": 6,
+                  "width": 758,
+                  "height": 190
+                },
+                "path": [
+                  {
+                    "x": 758,
+                    "y": 150
+                  },
+                  {
+                    "x": 758,
+                    "y": 190
+                  },
+                  {
+                    "x": 0,
+                    "y": 190
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "ce9bd57d-2a3a-45e0-a4d9-2aa22f206d2d"
+                },
+                "target": {
+                  "direction": "Down",
+                  "element": "de7fd93b-1a51-406d-a4f1-a37966b96db1"
+                },
+                "isManuallyLayouted": false,
+                "transitionType": "predefined",
+                "predefined": {
+                  "predefinedType": "auto",
+                  "conditionValue": ""
+                },
+                "custom": {
+                  "condition": []
+                }
+              },
+              "5b5b157d-6010-4798-b549-2c00f14a8c97": {
+                "id": "5b5b157d-6010-4798-b549-2c00f14a8c97",
+                "name": "",
+                "type": "AgentStateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": -358,
+                  "y": -197,
+                  "width": 760,
+                  "height": 163
+                },
+                "path": [
+                  {
+                    "x": 760,
+                    "y": 40
+                  },
+                  {
+                    "x": 760,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 163
+                  }
+                ],
+                "source": {
+                  "direction": "Up",
+                  "element": "22ffd05a-ea5f-42fe-8fb5-b7666e02de3d"
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "de7fd93b-1a51-406d-a4f1-a37966b96db1"
+                },
+                "isManuallyLayouted": false,
+                "transitionType": "predefined",
+                "predefined": {
+                  "predefinedType": "auto",
+                  "conditionValue": ""
+                },
+                "custom": {
+                  "condition": []
+                }
+              },
+              "29323cff-96c3-46d0-93b3-7b5ef6b69340": {
+                "id": "29323cff-96c3-46d0-93b3-7b5ef6b69340",
+                "name": "",
+                "type": "AgentStateTransitionInit",
+                "owner": null,
+                "bounds": {
+                  "x": -500,
+                  "y": -14,
+                  "width": 62,
+                  "height": 1
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 62,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Downright",
+                  "element": "cd5c65eb-7b60-4a20-bd4a-2b2d2d36a93f"
+                },
+                "target": {
+                  "direction": "Left",
+                  "element": "de7fd93b-1a51-406d-a4f1-a37966b96db1"
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {},
+            "components": {
+              "b3282310-36ba-4e3b-a223-1f55a5047b96": {
+                "id": "b3282310-36ba-4e3b-a223-1f55a5047b96",
+                "type": "AgentIntent",
+                "name": "greeting_intent",
+                "owner": null,
+                "intent_description": "The user says hello to the agent",
+                "bodies": [
+                  "428c15bc-838d-4ab6-aadc-9d570e1813e3",
+                  "284a677d-a6b0-4101-bfd7-0fc328193757",
+                  "7f04696d-d966-49c4-97b7-45c0dc46f4eb"
+                ]
+              },
+              "428c15bc-838d-4ab6-aadc-9d570e1813e3": {
+                "id": "428c15bc-838d-4ab6-aadc-9d570e1813e3",
+                "type": "AgentIntentBody",
+                "name": "Hi",
+                "owner": "b3282310-36ba-4e3b-a223-1f55a5047b96"
+              },
+              "284a677d-a6b0-4101-bfd7-0fc328193757": {
+                "id": "284a677d-a6b0-4101-bfd7-0fc328193757",
+                "type": "AgentIntentBody",
+                "name": "Hello",
+                "owner": "b3282310-36ba-4e3b-a223-1f55a5047b96"
+              },
+              "7f04696d-d966-49c4-97b7-45c0dc46f4eb": {
+                "id": "7f04696d-d966-49c4-97b7-45c0dc46f4eb",
+                "type": "AgentIntentBody",
+                "name": "Howdy",
+                "owner": "b3282310-36ba-4e3b-a223-1f55a5047b96"
+              },
+              "ef574f96-f7fc-4a0c-8145-1c5372d497bd": {
+                "id": "ef574f96-f7fc-4a0c-8145-1c5372d497bd",
+                "type": "AgentIntent",
+                "name": "good_intent",
+                "owner": null,
+                "intent_description": "The user feels good",
+                "bodies": [
+                  "edf355f2-2843-41b7-979c-5526c5e04edd",
+                  "e637aac4-5d1a-4fb2-9e15-7173abe02f3d",
+                  "9dd3d2de-d4d1-402f-95ca-c568c3714cff"
+                ]
+              },
+              "edf355f2-2843-41b7-979c-5526c5e04edd": {
+                "id": "edf355f2-2843-41b7-979c-5526c5e04edd",
+                "type": "AgentIntentBody",
+                "name": "Good",
+                "owner": "ef574f96-f7fc-4a0c-8145-1c5372d497bd"
+              },
+              "e637aac4-5d1a-4fb2-9e15-7173abe02f3d": {
+                "id": "e637aac4-5d1a-4fb2-9e15-7173abe02f3d",
+                "type": "AgentIntentBody",
+                "name": "Fine",
+                "owner": "ef574f96-f7fc-4a0c-8145-1c5372d497bd"
+              },
+              "9dd3d2de-d4d1-402f-95ca-c568c3714cff": {
+                "id": "9dd3d2de-d4d1-402f-95ca-c568c3714cff",
+                "type": "AgentIntentBody",
+                "name": "I am allright",
+                "owner": "ef574f96-f7fc-4a0c-8145-1c5372d497bd"
+              },
+              "bddf00f2-3d69-46ec-a489-802f0b1c0e52": {
+                "id": "bddf00f2-3d69-46ec-a489-802f0b1c0e52",
+                "type": "AgentIntent",
+                "name": "bad_intent",
+                "owner": null,
+                "intent_description": "The user feels bad",
+                "bodies": [
+                  "0c62a40e-a42f-4a0f-9b43-01a7d8100e46",
+                  "10fda33d-9603-4fa9-a465-b190e0b2d341",
+                  "931457f2-3a41-4ab3-aa4d-16c3bbe3c9f9"
+                ]
+              },
+              "0c62a40e-a42f-4a0f-9b43-01a7d8100e46": {
+                "id": "0c62a40e-a42f-4a0f-9b43-01a7d8100e46",
+                "type": "AgentIntentBody",
+                "name": "Bad",
+                "owner": "bddf00f2-3d69-46ec-a489-802f0b1c0e52"
+              },
+              "10fda33d-9603-4fa9-a465-b190e0b2d341": {
+                "id": "10fda33d-9603-4fa9-a465-b190e0b2d341",
+                "type": "AgentIntentBody",
+                "name": "Not so good",
+                "owner": "bddf00f2-3d69-46ec-a489-802f0b1c0e52"
+              },
+              "931457f2-3a41-4ab3-aa4d-16c3bbe3c9f9": {
+                "id": "931457f2-3a41-4ab3-aa4d-16c3bbe3c9f9",
+                "type": "AgentIntentBody",
+                "name": "Could be better",
+                "owner": "bddf00f2-3d69-46ec-a489-802f0b1c0e52"
+              }
+            }
+          },
+          "lastUpdate": "2026-10-05T12:23:34.765Z",
+          "config": {
+            "agentPlatform": "websocket",
+            "intentRecognitionTechnology": "classical"
+          }
+        }
+      ],
+      "UserDiagram": [
+        {
+          "id": "76448e7a-2890-45a7-8441-3cec5f3aa9ee",
+          "title": "User Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "UserDiagram",
+            "size": {
+              "width": 660,
+              "height": 560
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "b2ef02ef-1b59-448f-9b49-d2668630a8ab": {
+                "id": "b2ef02ef-1b59-448f-9b49-d2668630a8ab",
+                "name": "user_1",
+                "type": "UserModelName",
+                "owner": null,
+                "bounds": {
+                  "x": -310,
+                  "y": -260,
+                  "width": 106,
+                  "height": 146
+                },
+                "icon": "d743a858-b138-499b-a65d-004e399731e7",
+                "attributes": [],
+                "methods": [],
+                "classId": "ce1e2d59-3d7c-4753-adb7-09ca96797f5a",
+                "className": "User"
+              },
+              "d743a858-b138-499b-a65d-004e399731e7": {
+                "id": "d743a858-b138-499b-a65d-004e399731e7",
+                "name": "icon",
+                "type": "UserModelIcon",
+                "owner": "b2ef02ef-1b59-448f-9b49-d2668630a8ab",
+                "bounds": {
+                  "x": -309.5,
+                  "y": -214.5,
+                  "width": 106,
+                  "height": 96
+                },
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"96\" viewBox=\"0 0 20 20\"> \t<g fill=\"none\"> \t\t<path fill=\"url(#fluentColorPerson200)\" d=\"M5.009 11A2 2 0 0 0 3 13c0 1.691.833 2.966 2.135 3.797C6.417 17.614 8.145 18 10 18s3.583-.386 4.865-1.203C16.167 15.967 17 14.69 17 13a2 2 0 0 0-2-2z\" /> \t\t<path fill=\"url(#fluentColorPerson201)\" d=\"M5.009 11A2 2 0 0 0 3 13c0 1.691.833 2.966 2.135 3.797C6.417 17.614 8.145 18 10 18s3.583-.386 4.865-1.203C16.167 15.967 17 14.69 17 13a2 2 0 0 0-2-2z\" /> \t\t<path fill=\"url(#fluentColorPerson202)\" d=\"M10 2a4 4 0 1 0 0 8a4 4 0 0 0 0-8\" /> \t\t<defs> \t\t\t<linearGradient id=\"fluentColorPerson200\" x1=\"6.329\" x2=\"8.591\" y1=\"11.931\" y2=\"19.153\" gradientUnits=\"userSpaceOnUse\"> \t\t\t\t<stop offset=\".125\" stop-color=\"#5baad0\" /> \t\t\t\t<stop offset=\"1\" stop-color=\"#282233\" /> \t\t\t</linearGradient> \t\t\t<linearGradient id=\"fluentColorPerson201\" x1=\"10\" x2=\"13.167\" y1=\"10.167\" y2=\"22\" gradientUnits=\"userSpaceOnUse\"> \t\t\t\t<stop stop-color=\"#537fff\" stop-opacity=\"0\" /> \t\t\t\t<stop offset=\"1\" stop-color=\"#e362f8\" /> \t\t\t</linearGradient> \t\t\t<linearGradient id=\"fluentColorPerson202\" x1=\"7.902\" x2=\"11.979\" y1=\"3.063\" y2=\"9.574\" gradientUnits=\"userSpaceOnUse\"> \t\t\t\t<stop offset=\".125\" stop-color=\"#5baad0\" /> \t\t\t\t<stop offset=\"1\" stop-color=\"#282233\" /> \t\t\t</linearGradient> \t\t</defs> \t</g> </svg>"
+              }
+            },
+            "relationships": {},
+            "assessments": {}
+          },
+          "lastUpdate": "2026-10-05T12:36:10.672Z"
+        }
+      ],
+      "GUINoCodeDiagram": [
+        {
+          "id": "9cb893e5-7a28-40ae-881f-6ed4a0441a30",
+          "title": "GUI Diagram",
+          "model": {
+            "pages": [
+              {
+                "name": "Book",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "i2l0b"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "i4pu1"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i2qmk"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "ibbb5"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/book",
+                                        "id": "iqqqh"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Book"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/library",
+                                        "id": "ikl1h"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Library"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/author",
+                                        "id": "icr9f"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Author"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ij784"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "i6e8i"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iwm1k"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Book"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iiium"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage Book data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "Book List",
+                                    "data-source": "class_oho5ergc3_mjikkmod",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "title",
+                                        "label": "Title",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "pages",
+                                        "label": "Pages",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "stock",
+                                        "label": "Stock",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "price",
+                                        "label": "Price",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "release",
+                                        "label": "Release",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "genre",
+                                        "label": "Genre",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "library",
+                                        "label": "Library",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_06blhjj3h_mjikkmod",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "authors",
+                                        "label": "Authors",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_d3f0di6lb_mjikkmoe",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-book-0",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "Book List",
+                                  "data-source": "class_oho5ergc3_mjikkmod",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "title",
+                                      "label": "Title",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "pages",
+                                      "label": "Pages",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "stock",
+                                      "label": "Stock",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "price",
+                                      "label": "Price",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "release",
+                                      "label": "Release",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "genre",
+                                      "label": "Genre",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "library",
+                                      "label": "Library",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_06blhjj3h_mjikkmod",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "authors",
+                                      "label": "Authors",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_d3f0di6lb_mjikkmoe",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "ie7p7"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "content": "+ decrease_stock",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "+ decrease_stock",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_oho5ergc3_mjikkmod",
+                                        "data-method": "method_rb01uirsh_mjikkmod",
+                                        "data-instance-source": "table-book-0",
+                                        "id": "iz0cf",
+                                        "data-confirmation": "false",
+                                        "data-confirmation-message": "Are you sure?",
+                                        "button-label": "+ decrease_stock",
+                                        "data-method-name": "method_rb01uirsh_mjikkmod"
+                                      },
+                                      "button-label": "+ decrease_stock",
+                                      "action-type": "run-method",
+                                      "method-class": "class_oho5ergc3_mjikkmod",
+                                      "method": "method_rb01uirsh_mjikkmod",
+                                      "instance-source": "table-book-0",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "+ decrease_stock"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "2dS6XMQNsNcV1tQu"
+                  }
+                ],
+                "id": "page-book-0",
+                "route_path": "/book"
+              },
+              {
+                "name": "Library",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "ik7dh"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "iz8c7"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ilenn"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i5q1l"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/book",
+                                        "id": "i5qe9"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Book"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/library",
+                                        "id": "ih654"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Library"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/author",
+                                        "id": "iva4b"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Author"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iilc2"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "isb3j"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i35wj"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Library"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ikh8p"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage Library data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "Library List",
+                                    "data-source": "class_06blhjj3h_mjikkmod",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "name",
+                                        "label": "Name",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "web_page",
+                                        "label": "Web Page",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "address",
+                                        "label": "Address",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "telephone",
+                                        "label": "Telephone",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "books",
+                                        "label": "Books",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                        "lookupField": "title",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-library-1",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "Library List",
+                                  "data-source": "class_06blhjj3h_mjikkmod",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "web_page",
+                                      "label": "Web Page",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "address",
+                                      "label": "Address",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "telephone",
+                                      "label": "Telephone",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "books",
+                                      "label": "Books",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                      "lookupField": "title",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i0t53"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "+ cheapest_book_by",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_06blhjj3h_mjikkmod",
+                                        "data-method": "35ef5329-889b-40f0-89ce-9836936fd8a9",
+                                        "data-instance-source": "table-library-1",
+                                        "id": "il7gv"
+                                      },
+                                      "button-label": "+ cheapest_book_by",
+                                      "action-type": "run-method",
+                                      "method-class": "class_06blhjj3h_mjikkmod",
+                                      "method": "35ef5329-889b-40f0-89ce-9836936fd8a9",
+                                      "instance-source": "table-library-1",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "+ cheapest_book_by"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "jPP9hD3rvA37pAtp"
+                  }
+                ],
+                "id": "page-library-1",
+                "route_path": "/library"
+              },
+              {
+                "name": "Author",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "ihvqd"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "i8cc3"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iqaz4"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i4ibn"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/book",
+                                        "id": "isnsh"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Book"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/library",
+                                        "id": "i6j0h"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Library"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/author",
+                                        "id": "irsyf"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Author"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i1hdr"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "invzx"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i3rsz"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Author"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i0ya8"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage Author data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "classes": [
+                                    "has-data-binding"
+                                  ],
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "Author List",
+                                    "data-source": "class_d3f0di6lb_mjikkmoe",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "name",
+                                        "label": "Name",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "birth",
+                                        "label": "Birth",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "books",
+                                        "label": "Books",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                        "lookupField": "title",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-author-2",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "Author List",
+                                  "data-source": "class_d3f0di6lb_mjikkmoe",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "birth",
+                                      "label": "Birth",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "books",
+                                      "label": "Books",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                      "lookupField": "title",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "N43GrSF17hHtEvll"
+                  }
+                ],
+                "id": "page-author-2",
+                "route_path": "/author"
+              }
+            ],
+            "styles": [
+              {
+                "selectors": [],
+                "selectorsAdd": "*",
+                "style": {
+                  "box-sizing": "border-box"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ":root",
+                "style": {
+                  "--ds-primary": "#2563eb",
+                  "--ds-secondary": "#475569",
+                  "--ds-accent": "#0ea5e9",
+                  "--ds-surface": "#ffffff",
+                  "--ds-background": "#f8fafc",
+                  "--ds-text": "#0f172a",
+                  "--ds-muted": "#64748b",
+                  "--ds-border": "#e2e8f0",
+                  "--ds-radius": "8px",
+                  "--ds-shadow": "0 2px 8px rgba(15, 23, 42, 0.08)",
+                  "--ds-space-md": "1rem",
+                  "--ds-space-lg": "1.5rem",
+                  "--ds-font": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+                  "--ds-font-heading": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-page"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0px",
+                  "margin-left": "0px",
+                  "background-color": "rgb(248, 250, 252)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "400",
+                  "line-height": "1.6",
+                  "min-height": "100vh"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-container"
+                ],
+                "style": {
+                  "max-width": "1200px",
+                  "margin-top": "0px",
+                  "margin-right": "auto",
+                  "margin-bottom": "0px",
+                  "margin-left": "auto",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "width": "100%"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-section"
+                ],
+                "style": {
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-nav"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "space-between",
+                  "row-gap": "1rem",
+                  "column-gap": "1rem",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-hero"
+                ],
+                "style": {
+                  "background-image": "linear-gradient(135deg, rgb(37, 99, 235) 0%, rgb(14, 165, 233) 100%)",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "initial",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "text-align": "left"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero .ds-heading",
+                "style": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-heading"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0.5rem",
+                  "margin-left": "0px",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1.875rem",
+                  "font-weight": "650",
+                  "line-height": "1.15",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero h1.ds-heading, .ds-hero .ds-heading",
+                "style": {
+                  "font-size": "2.75rem",
+                  "font-weight": "750",
+                  "letter-spacing": "-0.03em",
+                  "line-height": "1.08",
+                  "max-width": "22ch"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(2, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(3, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-kpi-value"
+                ],
+                "style": {
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "2.75rem",
+                  "font-weight": "700",
+                  "line-height": "1.05",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(37, 99, 235)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "letter-spacing": "0.04em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table-wrap"
+                ],
+                "style": {
+                  "overflow-x": "auto",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table"
+                ],
+                "style": {
+                  "width": "100%",
+                  "border-collapse": "collapse",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "overflow-x": "hidden",
+                  "overflow-y": "hidden",
+                  "font-size": "1rem",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table th",
+                "style": {
+                  "text-align": "left",
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgb(248, 250, 252)",
+                  "border-bottom-width": "2px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "font-weight": "600",
+                  "font-size": "0.8125rem",
+                  "letter-spacing": "0.02em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table td",
+                "style": {
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table tbody tr:last-child td",
+                "style": {
+                  "border-bottom-width": "medium",
+                  "border-bottom-style": "none",
+                  "border-bottom-color": "currentcolor"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "padding-top": "0.625rem",
+                  "padding-right": "1.25rem",
+                  "padding-bottom": "0.625rem",
+                  "padding-left": "1.25rem",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "background-color": "rgb(255, 255, 255)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "600",
+                  "text-decoration-line": "none",
+                  "text-decoration-thickness": "initial",
+                  "text-decoration-style": "initial",
+                  "text-decoration-color": "initial",
+                  "cursor": "pointer",
+                  "transition-behavior": "normal, normal, normal, normal",
+                  "transition-duration": "0.15s, 0.15s, 0.15s, 0.15s",
+                  "transition-timing-function": "ease, ease, ease, ease",
+                  "transition-delay": "0s, 0s, 0s, 0s",
+                  "transition-property": "background-color, border-color, filter, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "border-top-color": "rgb(100, 116, 139)",
+                  "border-right-color": "rgb(100, 116, 139)",
+                  "border-bottom-color": "rgb(100, 116, 139)",
+                  "border-left-color": "rgb(100, 116, 139)",
+                  "background-color": "rgb(248, 250, 252)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "background-image": "initial",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "rgb(37, 99, 235)",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "filter": "brightness(1.08)",
+                  "background-color": "transparent",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-notice"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "row-gap": "0.5rem",
+                  "column-gap": "0.5rem",
+                  "padding-top": "0.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-left-width": "4px",
+                  "border-left-style": "solid",
+                  "border-left-color": "rgb(14, 165, 233)",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-badge"
+                ],
+                "style": {
+                  "display": "inline-block",
+                  "padding-top": "0.125rem",
+                  "padding-right": "0.5rem",
+                  "padding-bottom": "0.125rem",
+                  "padding-left": "0.5rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-top-left-radius": "999px",
+                  "border-top-right-radius": "999px",
+                  "border-bottom-right-radius": "999px",
+                  "border-bottom-left-radius": "999px",
+                  "color": "rgb(14, 165, 233)",
+                  "font-size": "0.875rem",
+                  "font-weight": "600"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-field"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "margin-bottom": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "width": "100%",
+                  "padding-top": "0.5rem",
+                  "padding-right": "0.75rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "0.75rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "outline-color": "initial",
+                  "outline-style": "none",
+                  "outline-width": "initial",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "box-shadow": "rgba(37, 99, 235, 0.15) 0px 0px 0px 3px"
+                },
+                "state": "focus"
+              },
+              {
+                "selectors": [
+                  "ds-footer"
+                ],
+                "style": {
+                  "background-color": "rgb(71, 85, 105)",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "2.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "2.5rem",
+                  "padding-left": "1rem",
+                  "font-size": "0.875rem"
+                }
+              },
+              {
+                "selectors": [
+                  "#i2qmk"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#iqqqh"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ikl1h"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#icr9f"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ibbb5"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#ij784"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#i4pu1"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#iwm1k"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iiium"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-book-0"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iz0cf"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#ie7p7"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#i6e8i"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#i2l0b"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#ilenn"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5qe9"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ih654"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iva4b"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5q1l"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#iilc2"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#iz8c7"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#i35wj"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ikh8p"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-library-1"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#il7gv"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#i0t53"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#isb3j"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#ik7dh"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#iqaz4"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#isnsh"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i6j0h"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#irsyf"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i4ibn"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#i1hdr"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#i8cc3"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#i3rsz"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i0ya8"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-author-2"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#invzx"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#ihvqd"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              }
+            ],
+            "assets": [],
+            "symbols": [],
+            "version": "0.21.13"
+          },
+          "lastUpdate": "2026-10-05T12:39:35.838Z"
+        }
+      ]
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false,
+      "perspectives": {
+        "ClassDiagram": true,
+        "ObjectDiagram": true,
+        "StateMachineDiagram": true,
+        "AgentDiagram": true,
+        "UserDiagram": true,
+        "GUINoCodeDiagram": true,
+        "QuantumCircuitDiagram": true,
+        "NNDiagram": true,
+        "BPMN": true
+      },
+      "preferredInterface": "model"
+    }
+  },
+  "exportedAt": "2026-10-05T15:36:08.825Z",
+  "version": "2.0.0",
+  "editorVersion": "1.0.0"
+}
